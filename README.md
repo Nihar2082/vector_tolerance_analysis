@@ -19,7 +19,7 @@ Most systems already have Python installed. To check, open a terminal or command
 
 ```sh
 python --version
-
+```
 
 ### ✅ Step 2: Install Required Libraries
 
