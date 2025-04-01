@@ -39,6 +39,12 @@ python -m pip install matplotlib numpy
 ```bash
 cd "F:\2. MASTER THESIS\vector_tolerance_analysis"
 ```
+**3️⃣ Run the analysis:**
+
+```bash
+python main.py
+```
+🔹**This executes the complete simulation, including geometry generation, Monte Carlo analysis, and Key Characteristics (KC) identification.**
 
 bash
 Copy
