@@ -28,12 +28,16 @@ Open your terminal or PowerShell and run:
 ```bash
 python -m pip install matplotlib numpy
 ```
-🔹 matplotlib → Used for visualizing simulation results with histograms and plots.
-🔹 numpy → Used for efficient numerical computations in the Monte Carlo simulation.
-
+🔹 **matplotlib** → Used for visualizing simulation results with histograms and plots.  
+🔹 **numpy** → Used for efficient numerical computations in the Monte Carlo simulation.  
 
 ✅ Step 3: Run the Analysis
-Navigate to your project folder and run:
+**1️⃣ Open your terminal or PowerShell.**
+**2️⃣ Navigate to your project folder:**
+
+```bash
+cd "F:\2. MASTER THESIS\vector_tolerance_analysis"
+```
 
 bash
 Copy
