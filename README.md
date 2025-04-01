@@ -66,8 +66,10 @@ Example:
 
 
 
-🧩 File Descriptions
+### 🧩 File Descriptions
+
 📁 config.py – The Settings File
+
 Purpose: Stores all your important parameters in one place.
 
 🔧 Contains:
