@@ -44,24 +44,28 @@ cd "F:\2. MASTER THESIS\vector_tolerance_analysis"
 ```bash
 python main.py
 ```
-🔹**This executes the complete simulation, including geometry generation, Monte Carlo analysis, and Key Characteristics (KC) identification.**
+**This executes the complete simulation, including geometry generation, Monte Carlo analysis, and Key Characteristics (KC) identification.**
 
-bash
-Copy
-Edit
-python main.py
-📊 What You'll See
-📐 Tailgate and window visualization with red zones for visual gaps.
+### 📊 What You'll See
 
-📈 Histograms showing the variation in width and height gaps.
+✅ Tailgate & Window Visualization:
 
-🧠 Printed output showing Key Characteristic contribution, like:
+- Displays the system with red zones highlighting the gap variations in the tailgate and window.
 
-pgsql
-Copy
-Edit
-Tailgate contribution to gap variation: 65.80%
-Window contribution to gap variation: 34.20%
+📈 Gap Variation Histograms:
+
+- Visualizes the distribution of width and height variations in the gaps, allowing for analysis of how the gaps fluctuate across different runs.
+
+🧠 Key Characteristic (KC) Contribution:
+
+- Printed output showing the percent contribution of each Key Characteristic (KC) to the total variation.
+
+Example:
+- Tailgate contribution to gap variation: 79.40%  
+- Window contribution to gap variation: 20.60%  
+
+
+
 🧩 File Descriptions
 📁 config.py – The Settings File
 Purpose: Stores all your important parameters in one place.
