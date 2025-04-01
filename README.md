@@ -31,7 +31,8 @@ python -m pip install matplotlib numpy
 🔹 **matplotlib** → Used for visualizing simulation results with histograms and plots.  
 🔹 **numpy** → Used for efficient numerical computations in the Monte Carlo simulation.  
 
-✅ Step 3: Run the Analysis
+### ✅ Step 3: Run the Analysis
+
 **1️⃣ Open your terminal or PowerShell.**
 **2️⃣ Navigate to your project folder:**
 
