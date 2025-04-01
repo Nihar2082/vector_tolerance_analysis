@@ -5,11 +5,11 @@ This project simulates manufacturing variations in a tailgate-window system usin
 ## 📁 Project Structure
 
 vector_tolerance_analysis/  
-├── config.py               # Central settings for geometry, tolerances, and sample count  
-├── geometry.py             # Draws the tailgate & window with gaps (rounded corners)  
-├── tolerance_analysis.py   # Runs Monte Carlo simulation and generates gap histograms  
-├── kc_identification.py    # Analyzes variance to identify Key Characteristics (KCs)  
-└── main.py                 # Executes all modules in sequence  
+│── config.py              # Centralized settings for geometry, tolerances, and sample count  
+│── geometry.py            # Generates tailgate & window geometry with gaps (rounded corners)  
+│── tolerance_analysis.py  # Performs Monte Carlo simulation and creates gap histograms  
+│── kc_identification.py   # Identifies Key Characteristics (KCs) by analyzing variance  
+└── main.py                # Orchestrates all modules and runs the complete analysis  
 
 
 ## 🚀 How to Run
