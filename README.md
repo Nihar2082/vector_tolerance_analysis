@@ -15,17 +15,17 @@ This repository presents a comprehensive framework for simulating and optimizing
 
 ## Methodology
 
-1. Vector-Based Tolerance Modeling
+### 1. Vector-Based Tolerance Modeling
 - Geometry Generation: Constructs a 2D representation of the tailgate-window system, incorporating rounded corners and defined gaps.
 
 - Tolerance Definition: Establishes input distributions and tolerances based on real-world constraints.
 
-2. Monte Carlo Simulation
+### 2. Monte Carlo Simulation
 - Sampling: Performs extensive simulations by randomly sampling input tolerances.
 
 - Analysis: Evaluates the impact of these variations on the overall system, generating histograms and statistical data.
 
-3. Machine Learning Integration
+### 3. Machine Learning Integration
 - KC Identification: Applies machine learning algorithms to determine the most influential KCs affecting system variability.
 
 - Optimization: Reduces the number of required measurements while maintaining accuracy, thereby optimizing computational resources.
@@ -45,11 +45,52 @@ vector_tolerance_analysis/
 
 ## Installation
 
-1. Clone the Repository:
+### 1. Clone the Repository:
 ```
 git clone https://github.com/Nihar2082/vector_tolerance_analysis.git
 cd vector_tolerance_analysis
 ```
+### 2. Create a Virtual Environment (optional but recommended):
+```
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+### 3. Install Dependencies:
+```
+pip install -r requirements.txt
+```
+Note: Ensure that requirements.txt is updated with all necessary packages.
+
+## Usage
+
+### 1. Configure Parameters:
+- Modify config.py to set geometry parameters, tolerance ranges, and simulation settings.
+### 2. Run the Analysis:
+´´´ 
+python main.py
+
+´´´
+This will execute the full pipeline: geometry generation, Monte Carlo simulation, KC identification, and result visualization.
+
+### 3. View Results:
+
+- Output statistics and plots will be saved in the project directory.
+- output.png provides a visual summary of the simulation outcomes.
+
+###  Sample Output
+Include sample plots or statistical summaries here to illustrate the results.
+
+### Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
+
+### License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+### Contact
+For questions or suggestions, please contact nihar3010patel@gmail.com.
+
+<!-- 
 ## 🚀 How to Run
 
 ### ✅ Step 1: Check if Python is Installed  
@@ -205,4 +246,4 @@ Let me know if you'd like me to include example output images, or turn this into
 
 
 
-
+ -->
