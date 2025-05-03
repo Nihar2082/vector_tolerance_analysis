@@ -1,6 +1,25 @@
-# 📐 2D Vector-Based Tolerance Analysis with Monte Carlo Simulation
+# 2D Vector-Based Tolerance Analysis with Monte Carlo Simulation and Machine Learning
 
-This project simulates manufacturing variations in a tailgate-window system using **vector-based geometry** and **Monte Carlo tolerance analysis** in Python. It also identifies **Key Characteristics (KCs)** affecting system variation.
+This repository presents a comprehensive framework for simulating and optimizing manufacturing tolerances in 2D mechanical assemblies. Utilizing vector-based geometry, Monte Carlo simulations, and machine learning techniques, the project aims to identify and optimize Key Characteristics (KCs) that influence system variability.
+
+📌 Overview
+
+The primary objective is to develop a 2D tolerance analysis model that:
+
+Implements a vector-based approach to analyze tolerance variations.
+
+Utilizes Python to create a simulation environment.
+
+Identifies the most relevant KCs affecting product performance.
+
+Conducts extensive Monte Carlo simulations with a large sample size.
+
+Analyzes the influence of tolerances on overall system variability.
+
+Trains an ML model to predict the most influential KCs based on input distributions.
+
+Optimizes the number of required measurements to reduce computation time while ensuring precision.
+
 
 ## 📁 Project Structure
 
