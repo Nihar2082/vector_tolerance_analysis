@@ -35,7 +35,7 @@ This repository presents a comprehensive framework for simulating and optimizing
 vector_tolerance_analysis/
 
 - config.py
-# Configuration for geometry, tolerances, and simulation parameters
+🔧 Configuration for geometry, tolerances, and simulation parameters
 - geometry.py
 📐 Functions to generate and manipulate 2D geometry
 - tolerance_analysis.py
