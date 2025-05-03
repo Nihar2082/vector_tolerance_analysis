@@ -66,10 +66,9 @@ Note: Ensure that requirements.txt is updated with all necessary packages.
 ### 1. Configure Parameters:
 - Modify config.py to set geometry parameters, tolerance ranges, and simulation settings.
 ### 2. Run the Analysis:
-´´´ 
+```
 python main.py
-
-´´´
+```
 This will execute the full pipeline: geometry generation, Monte Carlo simulation, KC identification, and result visualization.
 
 ### 3. View Results:
