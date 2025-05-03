@@ -2,24 +2,33 @@
 
 This repository presents a comprehensive framework for simulating and optimizing manufacturing tolerances in 2D mechanical assemblies. Utilizing vector-based geometry, Monte Carlo simulations, and machine learning techniques, the project aims to identify and optimize Key Characteristics (KCs) that influence system variability.
 
-📌 Overview
+## Overview
 
-The primary objective is to develop a 2D tolerance analysis model that:
+- The primary objective is to develop a 2D tolerance analysis model that:
+- Implements a vector-based approach to analyze tolerance variations.
+- Utilizes Python to create a simulation environment.
+- Identifies the most relevant KCs affecting product performance.
+- Conducts extensive Monte Carlo simulations with a large sample size.
+- Analyzes the influence of tolerances on overall system variability.
+- Trains an ML model to predict the most influential KCs based on input distributions.
+- Optimizes the number of required measurements to reduce computation time while ensuring precision.
 
-Implements a vector-based approach to analyze tolerance variations.
+## Methodology
 
-Utilizes Python to create a simulation environment.
+1. Vector-Based Tolerance Modeling
+- Geometry Generation: Constructs a 2D representation of the tailgate-window system, incorporating rounded corners and defined gaps.
 
-Identifies the most relevant KCs affecting product performance.
+- Tolerance Definition: Establishes input distributions and tolerances based on real-world constraints.
 
-Conducts extensive Monte Carlo simulations with a large sample size.
+2. Monte Carlo Simulation
+- Sampling: Performs extensive simulations by randomly sampling input tolerances.
 
-Analyzes the influence of tolerances on overall system variability.
+- Analysis: Evaluates the impact of these variations on the overall system, generating histograms and statistical data.
 
-Trains an ML model to predict the most influential KCs based on input distributions.
+3. Machine Learning Integration
+- KC Identification: Applies machine learning algorithms to determine the most influential KCs affecting system variability.
 
-Optimizes the number of required measurements to reduce computation time while ensuring precision.
-
+- Optimization: Reduces the number of required measurements while maintaining accuracy, thereby optimizing computational resources.
 
 ## 📁 Project Structure
 
