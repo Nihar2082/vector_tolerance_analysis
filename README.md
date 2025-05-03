@@ -32,14 +32,24 @@ This repository presents a comprehensive framework for simulating and optimizing
 
 ## 📁 Project Structure
 
-vector_tolerance_analysis/  
-│── config.py              # Centralized settings for geometry, tolerances, and sample count  
-│── geometry.py            # Generates tailgate & window geometry with gaps (rounded corners)  
-│── tolerance_analysis.py  # Performs Monte Carlo simulation and creates gap histograms  
-│── kc_identification.py   # Identifies Key Characteristics (KCs) by analyzing variance  
-└── main.py                # Orchestrates all modules and runs the complete analysis  
+vector_tolerance_analysis/
+├── config.py              # Configuration settings for geometry, tolerances, and simulation parameters
+├── geometry.py            # Functions to generate and manipulate 2D geometry
+├── tolerance_analysis.py  # Monte Carlo simulation and statistical analysis
+├── kc_identification.py   # Machine learning models for KC identification and optimization
+├── main.py                # Main script to execute the entire analysis pipeline
+├── tolerance_data.csv     # Sample input data for tolerances
+├── output.png             # Visual representation of simulation results
+├── push.bat               # Batch script for version control operations
+└── README.md              # Project documentation
 
+## Installation
 
+1. Clone the Repository:
+```
+git clone https://github.com/Nihar2082/vector_tolerance_analysis.git
+cd vector_tolerance_analysis
+```
 ## 🚀 How to Run
 
 ### ✅ Step 1: Check if Python is Installed  
