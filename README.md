@@ -33,15 +33,26 @@ This repository presents a comprehensive framework for simulating and optimizing
 ## 📁 Project Structure
 
 vector_tolerance_analysis/
-├── config.py              # Configuration settings for geometry, tolerances, and simulation parameters
-├── geometry.py            # Functions to generate and manipulate 2D geometry
-├── tolerance_analysis.py  # Monte Carlo simulation and statistical analysis
-├── kc_identification.py   # Machine learning models for KC identification and optimization
-├── main.py                # Main script to execute the entire analysis pipeline
-├── tolerance_data.csv     # Sample input data for tolerances
-├── output.png             # Visual representation of simulation results
-├── push.bat               # Batch script for version control operations
-└── README.md              # Project documentation
+
+- config.py
+🔧 Configuration for geometry, tolerances, and simulation parameters
+- geometry.py
+📐 Functions to generate and manipulate 2D geometry
+- tolerance_analysis.py
+🎲 Monte Carlo simulation and statistical analysis
+- kc_identification.py
+🧠 Machine learning models for Key Characteristic (KC) identification and optimization
+- main.py
+🚀 Entry-point script to execute the full analysis pipeline
+- tolerance_data.csv
+📊 Sample input data for tolerances
+- output.png
+📸 Visual output of the simulation results
+- push.bat
+💻 Batch script for version control operations
+- README.md
+📄 Project documentation
+
 
 
 ## Installation
