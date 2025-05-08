@@ -91,9 +91,6 @@ This will execute the full pipeline: geometry generation, Monte Carlo simulation
 ###  Sample Output
 Include sample plots or statistical summaries here to illustrate the results.
 
-### Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your enhancements.
-
 ### License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
